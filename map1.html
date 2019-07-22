@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_02000e75849240ff9196eddc7f99682c {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_02000e75849240ff9196eddc7f99682c" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_02000e75849240ff9196eddc7f99682c = L.map(
+                                  'map_02000e75849240ff9196eddc7f99682c',
+                                  {center: [43.653963,-79.387207],
+                                  zoom: 10,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_99dfe7f9d0874cf0a49070d4c8a84b66 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+        
+    
+            var circle_marker_b210fdacb4aa4283b1ba491ca09a44cb = L.circleMarker(
+                [43.65428,-79.38003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_49ad3bcbc8eb4ca7b298f8dec61e7bb3 = L.popup({maxWidth: '300'});
+
+            
+                var html_929e0ccb9eb741f5a96647c433fb626d = $('<div id="html_929e0ccb9eb741f5a96647c433fb626d" style="width: 100.0%; height: 100.0%;">Yonge &amp; Shuter, 229 Yonge Street</div>')[0];
+                popup_49ad3bcbc8eb4ca7b298f8dec61e7bb3.setContent(html_929e0ccb9eb741f5a96647c433fb626d);
+            
+
+            circle_marker_b210fdacb4aa4283b1ba491ca09a44cb.bindPopup(popup_49ad3bcbc8eb4ca7b298f8dec61e7bb3);
+
+            
+        
+    
+            var circle_marker_13bb5c9c55cb4c47ab78eb26faa1c68a = L.circleMarker(
+                [43.65599,-79.38165],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_21802e2242d343c1bc17c5ad0de0bd40 = L.popup({maxWidth: '300'});
+
+            
+                var html_7443a83a984a444ab8e694bd708226cc = $('<div id="html_7443a83a984a444ab8e694bd708226cc" style="width: 100.0%; height: 100.0%;">Eaton Centre, 1 Dundas Street West</div>')[0];
+                popup_21802e2242d343c1bc17c5ad0de0bd40.setContent(html_7443a83a984a444ab8e694bd708226cc);
+            
+
+            circle_marker_13bb5c9c55cb4c47ab78eb26faa1c68a.bindPopup(popup_21802e2242d343c1bc17c5ad0de0bd40);
+
+            
+        
+    
+            var circle_marker_077f1465056b461ea9703a3fa668205c = L.circleMarker(
+                [43.65435,-79.38794],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_9bd1bc27d3a54081a21002bc6151fb19 = L.popup({maxWidth: '300'});
+
+            
+                var html_4e25602934a84e8c9438d1bb122a14c2 = $('<div id="html_4e25602934a84e8c9438d1bb122a14c2" style="width: 100.0%; height: 100.0%;">University &amp; Dundas, 439 University Avenue</div>')[0];
+                popup_9bd1bc27d3a54081a21002bc6151fb19.setContent(html_4e25602934a84e8c9438d1bb122a14c2);
+            
+
+            circle_marker_077f1465056b461ea9703a3fa668205c.bindPopup(popup_9bd1bc27d3a54081a21002bc6151fb19);
+
+            
+        
+    
+            var circle_marker_5970210f7e3f4aadbb1b50a3806021af = L.circleMarker(
+                [43.651453,-79.3786278],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_24b410081f7048e98d2da8c6e5461acf = L.popup({maxWidth: '300'});
+
+            
+                var html_31836813ab8e44eea55b99d0ec2d2e90 = $('<div id="html_31836813ab8e44eea55b99d0ec2d2e90" style="width: 100.0%; height: 100.0%;">Yonge and Richmond Centre, 151 Yonge Street</div>')[0];
+                popup_24b410081f7048e98d2da8c6e5461acf.setContent(html_31836813ab8e44eea55b99d0ec2d2e90);
+            
+
+            circle_marker_5970210f7e3f4aadbb1b50a3806021af.bindPopup(popup_24b410081f7048e98d2da8c6e5461acf);
+
+            
+        
+    
+            var circle_marker_dc59e1ef1f374fea90736bacdbbb9036 = L.circleMarker(
+                [43.64834,-79.38331],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_aa886dc217e0492a9dfcc59ab83344b8 = L.popup({maxWidth: '300'});
+
+            
+                var html_6a940af062944c69ad63ceed919e4f25 = $('<div id="html_6a940af062944c69ad63ceed919e4f25" style="width: 100.0%; height: 100.0%;">Exchange Tower, 130 King Street West</div>')[0];
+                popup_aa886dc217e0492a9dfcc59ab83344b8.setContent(html_6a940af062944c69ad63ceed919e4f25);
+            
+
+            circle_marker_dc59e1ef1f374fea90736bacdbbb9036.bindPopup(popup_aa886dc217e0492a9dfcc59ab83344b8);
+
+            
+        
+    
+            var circle_marker_272f4e985be74343a0cf470291b251fd = L.circleMarker(
+                [43.64838,-79.38174],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_bba9bc5f7f9b46f4ac1e09543ba797ac = L.popup({maxWidth: '300'});
+
+            
+                var html_56c11f75b644444587c5810ee97f868c = $('<div id="html_56c11f75b644444587c5810ee97f868c" style="width: 100.0%; height: 100.0%;">First Canadian Place, 100 King Street West</div>')[0];
+                popup_bba9bc5f7f9b46f4ac1e09543ba797ac.setContent(html_56c11f75b644444587c5810ee97f868c);
+            
+
+            circle_marker_272f4e985be74343a0cf470291b251fd.bindPopup(popup_bba9bc5f7f9b46f4ac1e09543ba797ac);
+
+            
+        
+    
+            var circle_marker_acc0df08384941718e25499eeee61974 = L.circleMarker(
+                [43.650395,-79.376708],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_941de3d64a204fb9816262919c9f7f60 = L.popup({maxWidth: '300'});
+
+            
+                var html_6d42418b8e384d4b901400ad8cf6ce29 = $('<div id="html_6d42418b8e384d4b901400ad8cf6ce29" style="width: 100.0%; height: 100.0%;">Toronto Street, 36 Toronto Street</div>')[0];
+                popup_941de3d64a204fb9816262919c9f7f60.setContent(html_6d42418b8e384d4b901400ad8cf6ce29);
+            
+
+            circle_marker_acc0df08384941718e25499eeee61974.bindPopup(popup_941de3d64a204fb9816262919c9f7f60);
+
+            
+        
+    
+            var circle_marker_63a2b1c661344cf29b3ccc39b9bf3f0f = L.circleMarker(
+                [43.64948,-79.3764],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_15839431581a4fbbb9a863072932dee4 = L.popup({maxWidth: '300'});
+
+            
+                var html_4e6a876a375e4b0194e16de3f38b88a3 = $('<div id="html_4e6a876a375e4b0194e16de3f38b88a3" style="width: 100.0%; height: 100.0%;">King East, 36 King Street East</div>')[0];
+                popup_15839431581a4fbbb9a863072932dee4.setContent(html_4e6a876a375e4b0194e16de3f38b88a3);
+            
+
+            circle_marker_63a2b1c661344cf29b3ccc39b9bf3f0f.bindPopup(popup_15839431581a4fbbb9a863072932dee4);
+
+            
+        
+    
+            var circle_marker_e77fb45afeda4557be5cfeeb70bf1414 = L.circleMarker(
+                [43.65343,-79.37448],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_6c22389dafa5447fbd576e5793292641 = L.popup({maxWidth: '300'});
+
+            
+                var html_3d841c7acb8c4cebb886dad78f5558b0 = $('<div id="html_3d841c7acb8c4cebb886dad78f5558b0" style="width: 100.0%; height: 100.0%;">Queen &amp; Richmond Centre, 111 Queen Street East</div>')[0];
+                popup_6c22389dafa5447fbd576e5793292641.setContent(html_3d841c7acb8c4cebb886dad78f5558b0);
+            
+
+            circle_marker_e77fb45afeda4557be5cfeeb70bf1414.bindPopup(popup_6c22389dafa5447fbd576e5793292641);
+
+            
+        
+    
+            var circle_marker_fedc5c0ca1974d7faf481abd10e4c3c3 = L.circleMarker(
+                [43.650679,-79.391675],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_40445bd09ccd427482b2144f9cf4269a = L.popup({maxWidth: '300'});
+
+            
+                var html_6b115c06598549bebfbba28931ccefd5 = $('<div id="html_6b115c06598549bebfbba28931ccefd5" style="width: 100.0%; height: 100.0%;">Toronto - Queen West, 180 John Street</div>')[0];
+                popup_40445bd09ccd427482b2144f9cf4269a.setContent(html_6b115c06598549bebfbba28931ccefd5);
+            
+
+            circle_marker_fedc5c0ca1974d7faf481abd10e4c3c3.bindPopup(popup_40445bd09ccd427482b2144f9cf4269a);
+
+            
+        
+    
+            var circle_marker_6b1a805b825c46eb8baedac91984aeed = L.circleMarker(
+                [43.64518,-79.39668],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_672e48b58ae64112b47af043fa9bc356 = L.popup({maxWidth: '300'});
+
+            
+                var html_90e1c025c30f4e36bb5befb069db588c = $('<div id="html_90e1c025c30f4e36bb5befb069db588c" style="width: 100.0%; height: 100.0%;">King West, 500 King Street West</div>')[0];
+                popup_672e48b58ae64112b47af043fa9bc356.setContent(html_90e1c025c30f4e36bb5befb069db588c);
+            
+
+            circle_marker_6b1a805b825c46eb8baedac91984aeed.bindPopup(popup_672e48b58ae64112b47af043fa9bc356);
+
+            
+        
+    
+            var circle_marker_03985878e6224853a083accc18f3632e = L.circleMarker(
+                [43.64107,-79.37807],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_af62c401b9c1472b91e62474daddbaff = L.popup({maxWidth: '300'});
+
+            
+                var html_90efd5eab66642718188eb6302dbcc78 = $('<div id="html_90efd5eab66642718188eb6302dbcc78" style="width: 100.0%; height: 100.0%;">Waterpark Place, 88 Queens Quay West</div>')[0];
+                popup_af62c401b9c1472b91e62474daddbaff.setContent(html_90efd5eab66642718188eb6302dbcc78);
+            
+
+            circle_marker_03985878e6224853a083accc18f3632e.bindPopup(popup_af62c401b9c1472b91e62474daddbaff);
+
+            
+        
+    
+            var circle_marker_03b29e3bcbc74d0dbd8a71627918b64b = L.circleMarker(
+                [43.67018,-79.3871],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_ed4c545c6b104286b55ad315a8d01d91 = L.popup({maxWidth: '300'});
+
+            
+                var html_c1b8ae9720c44c8596d326c57d43a0fa = $('<div id="html_c1b8ae9720c44c8596d326c57d43a0fa" style="width: 100.0%; height: 100.0%;">Bloor and Yonge, 2 Bloor Street West</div>')[0];
+                popup_ed4c545c6b104286b55ad315a8d01d91.setContent(html_c1b8ae9720c44c8596d326c57d43a0fa);
+            
+
+            circle_marker_03b29e3bcbc74d0dbd8a71627918b64b.bindPopup(popup_ed4c545c6b104286b55ad315a8d01d91);
+
+            
+        
+    
+            var circle_marker_e3269184db16413da963ad909b991800 = L.circleMarker(
+                [43.67057,-79.3898],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_bffba550a2634179a9d3b91fd2cc0332 = L.popup({maxWidth: '300'});
+
+            
+                var html_e8202d426a1047ada2d127146addbcf9 = $('<div id="html_e8202d426a1047ada2d127146addbcf9" style="width: 100.0%; height: 100.0%;">Yorkville, 1235 Bay Street</div>')[0];
+                popup_bffba550a2634179a9d3b91fd2cc0332.setContent(html_e8202d426a1047ada2d127146addbcf9);
+            
+
+            circle_marker_e3269184db16413da963ad909b991800.bindPopup(popup_bffba550a2634179a9d3b91fd2cc0332);
+
+            
+        
+    
+            var circle_marker_de2c2d79d0b2470ca5dc9d34b19d76bd = L.circleMarker(
+                [43.670698,-79.391841],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_6c4674264bed4d51a2f2737e8df2f7f0 = L.popup({maxWidth: '300'});
+
+            
+                var html_68427505a25640458acd9f0d9b3c33bb = $('<div id="html_68427505a25640458acd9f0d9b3c33bb" style="width: 100.0%; height: 100.0%;">Toronto - Yorkville, 99 Yorkville Avenue</div>')[0];
+                popup_6c4674264bed4d51a2f2737e8df2f7f0.setContent(html_68427505a25640458acd9f0d9b3c33bb);
+            
+
+            circle_marker_de2c2d79d0b2470ca5dc9d34b19d76bd.bindPopup(popup_6c4674264bed4d51a2f2737e8df2f7f0);
+
+            
+        
+    
+            var circle_marker_3ba18673cde74b178b5a7cf0618a0f7d = L.circleMarker(
+                [43.63835,-79.42058],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_cc50d54d1da04cd590bbeeae7d530020 = L.popup({maxWidth: '300'});
+
+            
+                var html_22ef804216c040b499f6b89369b1bd77 = $('<div id="html_22ef804216c040b499f6b89369b1bd77" style="width: 100.0%; height: 100.0%;">Liberty Village, 60 Atlantic Avenue</div>')[0];
+                popup_cc50d54d1da04cd590bbeeae7d530020.setContent(html_22ef804216c040b499f6b89369b1bd77);
+            
+
+            circle_marker_3ba18673cde74b178b5a7cf0618a0f7d.bindPopup(popup_cc50d54d1da04cd590bbeeae7d530020);
+
+            
+        
+    
+            var circle_marker_9a932756cdde40c89607c31bc177b501 = L.circleMarker(
+                [43.638673,-79.421219],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_02c814e5a8104487ae822f96c3f5cb70 = L.popup({maxWidth: '300'});
+
+            
+                var html_7933190d9fbe44c0a7bbb5008cb1387a = $('<div id="html_7933190d9fbe44c0a7bbb5008cb1387a" style="width: 100.0%; height: 100.0%;">Toronto - Liberty Village, 80 Atlantic Ave</div>')[0];
+                popup_02c814e5a8104487ae822f96c3f5cb70.setContent(html_7933190d9fbe44c0a7bbb5008cb1387a);
+            
+
+            circle_marker_9a932756cdde40c89607c31bc177b501.bindPopup(popup_02c814e5a8104487ae822f96c3f5cb70);
+
+            
+        
+    
+            var circle_marker_590fe6cf29324eb9a9722fc9da9d543d = L.circleMarker(
+                [43.68829,-79.39459],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_a03e3a43e0894c369bc4d0154fae0547 = L.popup({maxWidth: '300'});
+
+            
+                var html_e91ec1c474ae4f92a023bca336078696 = $('<div id="html_e91ec1c474ae4f92a023bca336078696" style="width: 100.0%; height: 100.0%;">Yonge &amp; St. Clair, 2 St. Clair Avenue West</div>')[0];
+                popup_a03e3a43e0894c369bc4d0154fae0547.setContent(html_e91ec1c474ae4f92a023bca336078696);
+            
+
+            circle_marker_590fe6cf29324eb9a9722fc9da9d543d.bindPopup(popup_a03e3a43e0894c369bc4d0154fae0547);
+
+            
+        
+    
+            var circle_marker_6a95a94ef4654f7389f5c0bb0579889f = L.circleMarker(
+                [43.69875,-79.39668],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_29350e09142c4e5e9a56392c5947d5c3 = L.popup({maxWidth: '300'});
+
+            
+                var html_e5e95e2cf710451a88086bc7a3389a1c = $('<div id="html_e5e95e2cf710451a88086bc7a3389a1c" style="width: 100.0%; height: 100.0%;">Davisville Centre, Commercial Building</div>')[0];
+                popup_29350e09142c4e5e9a56392c5947d5c3.setContent(html_e5e95e2cf710451a88086bc7a3389a1c);
+            
+
+            circle_marker_6a95a94ef4654f7389f5c0bb0579889f.bindPopup(popup_29350e09142c4e5e9a56392c5947d5c3);
+
+            
+        
+    
+            var circle_marker_9999d3fa1746446197d962ce027b56a0 = L.circleMarker(
+                [43.67669,-79.44759],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_34b4737176944bdd82ba9c0e816a3807 = L.popup({maxWidth: '300'});
+
+            
+                var html_6c5b97e9f5ba4efdb2896de18d7cde14 = $('<div id="html_6c5b97e9f5ba4efdb2896de18d7cde14" style="width: 100.0%; height: 100.0%;">Yonge and St Clair, 2 St. Clair Avenue West</div>')[0];
+                popup_34b4737176944bdd82ba9c0e816a3807.setContent(html_6c5b97e9f5ba4efdb2896de18d7cde14);
+            
+
+            circle_marker_9999d3fa1746446197d962ce027b56a0.bindPopup(popup_34b4737176944bdd82ba9c0e816a3807);
+
+            
+        
+    
+            var circle_marker_6bf2df156e274f2cbbb34929f39d903b = L.circleMarker(
+                [43.72556,-79.40275],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_a23790bee66f45f2a47997dd0a3a4394 = L.popup({maxWidth: '300'});
+
+            
+                var html_8ecd1e85712547eb84f8d305fd43138d = $('<div id="html_8ecd1e85712547eb84f8d305fd43138d" style="width: 100.0%; height: 100.0%;">Yonge and Lawrence, 3080 Yonge Street</div>')[0];
+                popup_a23790bee66f45f2a47997dd0a3a4394.setContent(html_8ecd1e85712547eb84f8d305fd43138d);
+            
+
+            circle_marker_6bf2df156e274f2cbbb34929f39d903b.bindPopup(popup_a23790bee66f45f2a47997dd0a3a4394);
+
+            
+        
+    
+            var circle_marker_b435f4faeb8c4db68a196441bea860f5 = L.circleMarker(
+                [43.726975,-79.340372],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_5908a82a21bb4a4da93677a54469aeae = L.popup({maxWidth: '300'});
+
+            
+                var html_5818451c12d4471a9a37d722476f9664 = $('<div id="html_5818451c12d4471a9a37d722476f9664" style="width: 100.0%; height: 100.0%;">Don Mills, 895 Don Mills Road</div>')[0];
+                popup_5908a82a21bb4a4da93677a54469aeae.setContent(html_5818451c12d4471a9a37d722476f9664);
+            
+
+            circle_marker_b435f4faeb8c4db68a196441bea860f5.bindPopup(popup_5908a82a21bb4a4da93677a54469aeae);
+
+            
+        
+    
+            var circle_marker_827976a8333c4d8ea90c47320dfdf5c9 = L.circleMarker(
+                [43.64542,-79.521],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_064911629d6545d996a5a4916676d776 = L.popup({maxWidth: '300'});
+
+            
+                var html_363c7f02d5df448cbc2c47dd7fb653eb = $('<div id="html_363c7f02d5df448cbc2c47dd7fb653eb" style="width: 100.0%; height: 100.0%;">Islington Station, 3250 Bloor Street West</div>')[0];
+                popup_064911629d6545d996a5a4916676d776.setContent(html_363c7f02d5df448cbc2c47dd7fb653eb);
+            
+
+            circle_marker_827976a8333c4d8ea90c47320dfdf5c9.bindPopup(popup_064911629d6545d996a5a4916676d776);
+
+            
+        
+    
+            var circle_marker_ecef64dadbd046519af4cb5953ca7347 = L.circleMarker(
+                [43.7598763,-79.41027],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_66525e4686e44d2c8d2ff87b940a3bf1 = L.popup({maxWidth: '300'});
+
+            
+                var html_75b75dc9afae4a3d8bd78f774af33f94 = $('<div id="html_75b75dc9afae4a3d8bd78f774af33f94" style="width: 100.0%; height: 100.0%;">Yonge and Sheppard, 4711 Yonge Street</div>')[0];
+                popup_66525e4686e44d2c8d2ff87b940a3bf1.setContent(html_75b75dc9afae4a3d8bd78f774af33f94);
+            
+
+            circle_marker_ecef64dadbd046519af4cb5953ca7347.bindPopup(popup_66525e4686e44d2c8d2ff87b940a3bf1);
+
+            
+        
+    
+            var circle_marker_9786fa08a21e41b8af47354cf94872f5 = L.circleMarker(
+                [43.770655,-79.413522],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_4ce0ad7f12b64c6580da4532097d2abe = L.popup({maxWidth: '300'});
+
+            
+                var html_bcf9a0ec9cf24b209fd06c8babb7fecd = $('<div id="html_bcf9a0ec9cf24b209fd06c8babb7fecd" style="width: 100.0%; height: 100.0%;">Toronto - North York, 5200 Yonge Street</div>')[0];
+                popup_4ce0ad7f12b64c6580da4532097d2abe.setContent(html_bcf9a0ec9cf24b209fd06c8babb7fecd);
+            
+
+            circle_marker_9786fa08a21e41b8af47354cf94872f5.bindPopup(popup_4ce0ad7f12b64c6580da4532097d2abe);
+
+            
+        
+    
+            var circle_marker_7461a6c5a9a54d25993cf3984b378291 = L.circleMarker(
+                [43.77013,-79.33044],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_899fa3657b6547999fc2b7b681acd833 = L.popup({maxWidth: '300'});
+
+            
+                var html_3b097aae024e479b901c3d831cc2c953 = $('<div id="html_3b097aae024e479b901c3d831cc2c953" style="width: 100.0%; height: 100.0%;">Parkway Place, 251 Consumers Road</div>')[0];
+                popup_899fa3657b6547999fc2b7b681acd833.setContent(html_3b097aae024e479b901c3d831cc2c953);
+            
+
+            circle_marker_7461a6c5a9a54d25993cf3984b378291.bindPopup(popup_899fa3657b6547999fc2b7b681acd833);
+
+            
+        
+    
+            var circle_marker_2cb4850858d8438e839629165541cb57 = L.circleMarker(
+                [43.64626,-79.55937],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_8080ea62021a43198b62a87654100e77 = L.popup({maxWidth: '300'});
+
+            
+                var html_2b578c0724124fbaadf623a619968a0f = $('<div id="html_2b578c0724124fbaadf623a619968a0f" style="width: 100.0%; height: 100.0%;">West Toronto - Etobicoke, 10 Four Seasons Place</div>')[0];
+                popup_8080ea62021a43198b62a87654100e77.setContent(html_2b578c0724124fbaadf623a619968a0f);
+            
+
+            circle_marker_2cb4850858d8438e839629165541cb57.bindPopup(popup_8080ea62021a43198b62a87654100e77);
+
+            
+        
+    
+            var circle_marker_16dcb2c4513d4eefa6c692cbded8ddf4 = L.circleMarker(
+                [43.78138,-79.4164],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_6ec96ad6eae14422be2b3bbd884be11c = L.popup({maxWidth: '300'});
+
+            
+                var html_23219291c442496ca5712011de62fc6e = $('<div id="html_23219291c442496ca5712011de62fc6e" style="width: 100.0%; height: 100.0%;">North American Centre, 5700 Yonge Street</div>')[0];
+                popup_6ec96ad6eae14422be2b3bbd884be11c.setContent(html_23219291c442496ca5712011de62fc6e);
+            
+
+            circle_marker_16dcb2c4513d4eefa6c692cbded8ddf4.bindPopup(popup_6ec96ad6eae14422be2b3bbd884be11c);
+
+            
+        
+    
+            var circle_marker_98020c559de24cfc96c3de8537362663 = L.circleMarker(
+                [43.81334,-79.29167],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_432251c0e4e04a31851ce5ab0e85ccdd = L.popup({maxWidth: '300'});
+
+            
+                var html_d3463a33bcf74d43acbfeff87bcf1186 = $('<div id="html_d3463a33bcf74d43acbfeff87bcf1186" style="width: 100.0%; height: 100.0%;">Midland Avenue, 3660 Midland Avenue</div>')[0];
+                popup_432251c0e4e04a31851ce5ab0e85ccdd.setContent(html_d3463a33bcf74d43acbfeff87bcf1186);
+            
+
+            circle_marker_98020c559de24cfc96c3de8537362663.bindPopup(popup_432251c0e4e04a31851ce5ab0e85ccdd);
+
+            
+        
+    
+            var circle_marker_15e679f2b0504af38cd6476cb6c50daa = L.circleMarker(
+                [43.651729,-79.381389],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_32a0766a3f6c4980a4d99a7440a1d239 = L.popup({maxWidth: '300'});
+
+            
+                var html_7c462af9c54b44dbb58d6ea253b0e22c = $('<div id="html_7c462af9c54b44dbb58d6ea253b0e22c" style="width: 100.0%; height: 100.0%;">Queen &amp; Bay, 401 Bay Street </div>')[0];
+                popup_32a0766a3f6c4980a4d99a7440a1d239.setContent(html_7c462af9c54b44dbb58d6ea253b0e22c);
+            
+
+            circle_marker_15e679f2b0504af38cd6476cb6c50daa.bindPopup(popup_32a0766a3f6c4980a4d99a7440a1d239);
+
+            
+        
+    
+            var circle_marker_bb121a6cb61145e1993a16a46e1ffab4 = L.circleMarker(
+                [43.64646,-79.37917],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_9c8e2f5cf411474790b1aa1f94cc2f01 = L.popup({maxWidth: '300'});
+
+            
+                var html_e2c8f50ce9df4e0486bd21ea67f191a6 = $('<div id="html_e2c8f50ce9df4e0486bd21ea67f191a6" style="width: 100.0%; height: 100.0%;">Brookfield Place, TD Canada Trust Tower</div>')[0];
+                popup_9c8e2f5cf411474790b1aa1f94cc2f01.setContent(html_e2c8f50ce9df4e0486bd21ea67f191a6);
+            
+
+            circle_marker_bb121a6cb61145e1993a16a46e1ffab4.bindPopup(popup_9c8e2f5cf411474790b1aa1f94cc2f01);
+
+            
+        
+    
+            var circle_marker_957ec2611eaf4c8fbcce997a333a8370 = L.circleMarker(
+                [43.853868,-79.338341],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_459ec1e9a3b7457ca477d0d906fe5f1c = L.popup({maxWidth: '300'});
+
+            
+                var html_b6c05135bcdd46819cb9ca91d024074d = $('<div id="html_b6c05135bcdd46819cb9ca91d024074d" style="width: 100.0%; height: 100.0%;">Ontario, Toronto - Liberty Square, 3601 Highway 7</div>')[0];
+                popup_459ec1e9a3b7457ca477d0d906fe5f1c.setContent(html_b6c05135bcdd46819cb9ca91d024074d);
+            
+
+            circle_marker_957ec2611eaf4c8fbcce997a333a8370.bindPopup(popup_459ec1e9a3b7457ca477d0d906fe5f1c);
+
+            
+        
+    
+            var circle_marker_d9a6e991d55f442f9598b4661c78c170 = L.circleMarker(
+                [43.65225866666667,-79.39107733333333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_e86fc178bb46436f8c8be838f8b62c40 = L.popup({maxWidth: '300'});
+
+            
+                var html_9f9985869af34d40a2c05d317325054d = $('<div id="html_9f9985869af34d40a2c05d317325054d" style="width: 100.0%; height: 100.0%;">Cluster: 0</div>')[0];
+                popup_e86fc178bb46436f8c8be838f8b62c40.setContent(html_9f9985869af34d40a2c05d317325054d);
+            
+
+            circle_marker_d9a6e991d55f442f9598b4661c78c170.bindPopup(popup_e86fc178bb46436f8c8be838f8b62c40);
+
+            
+        
+    
+            var circle_marker_a4de6386b11f44af9090832d64938fdf = L.circleMarker(
+                [43.678866815,-79.39468739],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_0c6c85caedc940dc9cac5b99ddfaebde = L.popup({maxWidth: '300'});
+
+            
+                var html_14ecc83749084ba1b59a7d0c98bcdb95 = $('<div id="html_14ecc83749084ba1b59a7d0c98bcdb95" style="width: 100.0%; height: 100.0%;">Cluster: 1</div>')[0];
+                popup_0c6c85caedc940dc9cac5b99ddfaebde.setContent(html_14ecc83749084ba1b59a7d0c98bcdb95);
+            
+
+            circle_marker_a4de6386b11f44af9090832d64938fdf.bindPopup(popup_0c6c85caedc940dc9cac5b99ddfaebde);
+
+            
+        
+    
+            var circle_marker_79b9b580facb4146be0d36988f6b6504 = L.circleMarker(
+                [43.7426655,-79.3968655],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_02000e75849240ff9196eddc7f99682c);
+            
+    
+            var popup_4b4652649be149ab8a0012496559af5a = L.popup({maxWidth: '300'});
+
+            
+                var html_69dd40cb80df4782b10d57570d6a8273 = $('<div id="html_69dd40cb80df4782b10d57570d6a8273" style="width: 100.0%; height: 100.0%;">Cluster: 2</div>')[0];
+                popup_4b4652649be149ab8a0012496559af5a.setContent(html_69dd40cb80df4782b10d57570d6a8273);
+            
+
+            circle_marker_79b9b580facb4146be0d36988f6b6504.bindPopup(popup_4b4652649be149ab8a0012496559af5a);
+
+            
+        
+</script>
